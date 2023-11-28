@@ -1,0 +1,16 @@
+
+// 測試SASS
+// 新增變數
+$body-color:rgb(46, 7, 34);
+
+.App-header{
+    background-color: $body-color ;
+}
+
+// 測試Bootstrap(原版)
+// @import "bootstrap/scss/bootstrap"
+
+// 測試Bootstrap(自定義SASS)
+@import "bootstrap/scss/functions";
+@import "./variables";
+@import "bootstrap/scss/bootstrap";
